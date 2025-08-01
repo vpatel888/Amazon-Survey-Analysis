@@ -35,6 +35,6 @@ Insights and Recommendations are provided on the following North Star Metrics:
 ### Recommendations and Next Steps
 * Investigate what issues unsatisifed customers have with Customer Service Responsiveness and implement changes based on frequent issues that are reported. 
 * Continue to maintain competitive pricing and emphasize pricing in marketing strategy to push potential customers away from competitors
-* Since personalized recommendation is likely to lead to more user-interactivty and engagement, look into making improvements for the AI recommendation system
-* Since trusting review accuracy is likely to lead to more user engagement and satisfaction, look into improving AI systems that detect fake reviews as well as making sure that human moderators are equipped with the best tools to spot fake reviews 
+* Since personalized recommendation is likely to lead to more user engagement and overall satisfaction, look into making improvements for the AI recommendation system
+* Since trusting review accuracy is likely to lead to more user engagement and overall satisfaction, look into improving AI systems that detect fake reviews as well as making sure that human moderators are equipped with the best tools to spot fake reviews 
   
