@@ -32,6 +32,9 @@ Insights and Recommendations are provided on the following North Star Metrics:
 * Customers who explore multiple pages of search results value reviews higher in their purchasing decisions than those who only explore one page.
 * Customers who value reviews higher in their purchasing decisions are more likely to add products to their cart while browsing the website than those who don't value reviews as much.
 
+<img width="2198" height="1698" alt="Dashboard 2 (2)" src="https://github.com/user-attachments/assets/67ccecba-25d2-488b-b17b-fe25fb4fe972" />
+
+
 ### Recommendations and Next Steps
 * Investigate what issues unsatisifed customers have with Customer Service Responsiveness and implement changes based on frequent issues that are reported. 
 * Continue to maintain competitive pricing and emphasize pricing in marketing strategy to push potential customers away from competitors
