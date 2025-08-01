@@ -33,7 +33,7 @@ Insights and Recommendations are provided on the following North Star Metrics:
 * Customers who value reviews higher in their purchasing decisions are more likely to add products to their cart while browsing the website than those who don't value reviews as much.
 
 ### Limitations of Dashboard
-Due to a software issues, I was unable to implement the dropdown button that would switch between the graphs. Instead, I had to use the text-box that would switch the charts when the user types a particular letter. The screenshot is below, but I highly recommend interacting with the dashboard's text box features so you can view all of the charts: 
+Due to software issues, I was unable to implement the dropdown button that would switch between the graphs. Here's a description of the issue if you are interested: https://community.tableau.com/s/question/0D5cw00000KJXZXCA5/tableau-public-apple-silicon-crashing-when-creating-a-list-parameter. Consequently, I had to implement a text-box that would switch the charts when the user types a particular letter. The screenshot is below, but I highly recommend interacting with the dashboard's text box features so you can view all of the charts: 
 
 https://public.tableau.com/views/AmazonConsumerBehavior/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link  
 
