@@ -10,8 +10,9 @@
 Amazon, the largest e-commerce company in the world, sells a wide variety of consumer products online from its warehouses and third-party vendors. An existing dataset contains Amazon survey responses that provides a look into customer perceptions towards the company and their interactions with its online platform. The purpose of this project is to uncover any patterns in consumer behavior and understand what Amazon needs to improve with its online platform so that customers can have a better shopping experience. 
 
 ### Tools
-**MySQL**
-**Tableau**
+* **MySQL**
+
+* **Tableau**
 
 Insights and Recommendations are provided on the following North Star Metrics:
 
