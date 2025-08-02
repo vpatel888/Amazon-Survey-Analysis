@@ -52,6 +52,6 @@ https://public.tableau.com/views/AmazonConsumerBehavior/Dashboard2?:language=en-
 ### Recommendations and Next Steps
 * Investigate what issues unsatisifed customers have with Customer Service Responsiveness and implement changes based on frequent issues that are reported. 
 * Continue to maintain competitive pricing and emphasize pricing in marketing strategy to push potential customers away from competitors
-* Since personalized recommendation is likely to lead to more user engagement and overall satisfaction, look into making improvements for the AI recommendation system
+* To improve user engagement and overall satisfaction, enhance personalized recommendation systems by reviewing customer data quality/volume Machine Learning (ML) Models learn from and improve ML techniques being used (collaborative-filtering and content-based filtering)
 * Since trusting review accuracy is likely to lead to more user engagement and overall satisfaction, look into improving AI systems that detect fake reviews as well as making sure that human moderators are equipped with the best tools to spot fake reviews 
   
