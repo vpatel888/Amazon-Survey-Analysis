@@ -40,14 +40,18 @@ Insights and Recommendations are provided on the following North Star Metrics:
 * Customers who explore multiple pages of search results view recommendations with higher accuracy than those who only explore one page.
 * Customers who view recommendations as accurate are more likely to add products to their cart while browsing than those who don't view recommendations as accurate.
 
+Here's a snippet of code that pertains to the previous bullet:
+
 ```sql
+  --On the dataset I used, 1 = Very Accurate and 5 = Very Inaccurate. For my analysis and tableau dashboard, I inverted the scale. But, that's why the scale appears flipped here in case if there's confusion over that. 
+
   -- Customers who find recommendations accurate and their add-to-cart behavior in percentage value:
   SELECT Add_to_Cart_Browsing, COUNT(Recommendation_Accuracy)/ (SELECT COUNT(Recommendation_Accuracy) FROM Amazon.`amazon customer behavior survey`WHERE Recommendation_Accuracy = 1 OR Recommendation_Accuracy = 2) * 100 AS Percentage
   FROM Amazon.`amazon customer behavior survey`
   WHERE Recommendation_Accuracy = 1 OR Recommendation_Accuracy = 2
   GROUP BY Add_to_Cart_Browsing;
 
-  -- Customers who don't  find recommendations accurate and their add-to-cart behavior in percentage value:
+  -- Customers who don't find recommendations accurate and their add-to-cart behavior in percentage value:
   SELECT Add_to_Cart_Browsing, COUNT(Recommendation_Accuracy)/ (SELECT COUNT(Recommendation_Accuracy) FROM Amazon.`amazon customer behavior survey`WHERE Recommendation_Accuracy = 4 OR Recommendation_Accuracy = 5) * 100 AS percentage
   FROM Amazon.`amazon customer behavior survey`
   WHERE Recommendation_Accuracy = 4 OR Recommendation_Accuracy = 5
