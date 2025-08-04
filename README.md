@@ -3,6 +3,7 @@
 ### Table of Contents
 
 - [Project Background](#project-background)
+- [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Summary of Insights](#summary-of-insights)
 - [Dashboard](#dashboard)
