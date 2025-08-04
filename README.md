@@ -20,6 +20,9 @@ Insights and Recommendations are provided on the following North Star Metrics:
 
 * **Perception of Customer Reviews:** A metric that demonstrates how much consumers value reviews when making decisions. This is calculated using the customers_review_importance variable that uses a likert scale (1 = Very Unimportant to 5 = Very Important).
 
+### Data Source
+####Amazon Customer Survey Data: The primary dataset is the 
+
 ### Tools Used
 * **MySQL**
 
