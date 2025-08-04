@@ -37,9 +37,17 @@ Insights and Recommendations are provided on the following North Star Metrics:
 #### **Personalized Recommendation Accuracy:**
 ##### **Score: 39.37% (percentage of customers who view personalized recommendations as accurate)**
 * Customers who claim to get more frequent recommendations tend to view recommendations as more accurate. The Pearson Correlation Coefficient is 0.4379, which is generally a moderate positive correlation. 
-* Customers who view recommendations as accurate are more likely to add products to their cart while browsing than those who don't view recommendations as accurate.
 * Customers who explore multiple pages of search results view recommendations with higher accuracy than those who only explore one page.
+* Customers who view recommendations as accurate are more likely to add products to their cart while browsing than those who don't view recommendations as accurate.
 
+```sql
+  -- Customers who find recommendations accurate and their add-to-cart behavior in percentage value:
+  SELECT Add_to_Cart_Browsing, COUNT(Recommendation_Accuracy)/ (SELECT COUNT(Recommendation_Accuracy) FROM Amazon.`amazon customer behavior survey`WHERE Recommendation_Accuracy = 1 OR Recommendation_Accuracy = 2) * 100 AS Percentage
+  FROM Amazon.`amazon customer behavior survey`
+  WHERE Recommendation_Accuracy = 1 OR Recommendation_Accuracy = 2
+  GROUP BY Add_to_Cart_Browsing;
+```
+  
 #### **Customer Reviews Importance:**
 ##### **Score: 47.18% (percentage of customers who view reviews are important when making purchasing decisions)**
 * Customers who explore multiple pages of search results value reviews higher in their purchasing decisions than those who only explore one page.
