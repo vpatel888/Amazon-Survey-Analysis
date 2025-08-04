@@ -46,6 +46,12 @@ Insights and Recommendations are provided on the following North Star Metrics:
   FROM Amazon.`amazon customer behavior survey`
   WHERE Recommendation_Accuracy = 1 OR Recommendation_Accuracy = 2
   GROUP BY Add_to_Cart_Browsing;
+
+  -- Customers who don't  find recommendations accurate and their add-to-cart behavior in percentage value:
+  SELECT Add_to_Cart_Browsing, COUNT(Recommendation_Accuracy)/ (SELECT COUNT(Recommendation_Accuracy) FROM Amazon.`amazon customer behavior survey`WHERE Recommendation_Accuracy = 4 OR Recommendation_Accuracy = 5) * 100 AS percentage
+  FROM Amazon.`amazon customer behavior survey`
+  WHERE Recommendation_Accuracy = 4 OR Recommendation_Accuracy = 5
+  GROUP BY Add_to_Cart_Browsing;
 ```
   
 #### **Customer Reviews Importance:**
