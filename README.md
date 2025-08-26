@@ -6,7 +6,7 @@
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [Summary of Insights](#summary-of-insights)
-- [Dashboard](#dashboard)
+- [Tableau Dashboard](#tableau-dashboard)
 - [Recommendations and Next Steps](#Recommendations-and-Next-Steps)
 
 ### Project Background 
@@ -67,7 +67,7 @@ Here's a snippet of code that pertains to the previous bullet:
 * Customers who explore multiple pages of search results value reviews higher in their purchasing decisions than those who only explore one page.
 * Customers who value reviews higher in their purchasing decisions are more likely to add products to their cart while browsing the website than those who don't value reviews as much.
 
-### Dashboard
+### Tableau Dashboard
 Due to software issues, I was unable to implement the dropdown button that would switch between the graphs. Here's a description of the same issue that someone else had faced if you are interested: [List Parameter Issue](https://community.tableau.com/s/question/0D5cw00000KJXZXCA5/tableau-public-apple-silicon-crashing-when-creating-a-list-parameter). As an alternative, I implemented a text-box that would switch the charts when the user types a particular letter. The screenshot is below, but I highly recommend interacting with the dashboard's text box features so you can view all of the charts: 
 
 [Tableau](https://public.tableau.com/views/AmazonConsumerBehavior/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
